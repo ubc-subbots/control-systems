@@ -1,7 +1,7 @@
 
-# Controls-Simulations
+# Control Systems
 
-This is where we design and tune our control system and evaluate how it performs on a mathematical model of our AUV using MATLAB Simulink simulations. 
+This is where we design, simulate and tune our control systems and evaluate how they perform on a mathematical model of our AUV using MATLAB Simulink simulations. 
 
 ## Get Started
 This repo is in the form of a Simulink project, and requires MATLAB 2019 to correctly operate. To get started, clone this repo into your MATLAB path (folder called MATLAB created when you install MATLAB on your machine) and click the `Subbots_controller.prj`file within the MATLAB application. This will bring up a Project pane in the application where you are able to open and run the models.
