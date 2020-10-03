@@ -4,7 +4,7 @@
 This is where we design, simulate and tune our control systems and evaluate how they perform on a mathematical model of our AUV using MATLAB Simulink simulations. 
 
 ## Get Started
-This repo is in the form of a Simulink project, and requires MATLAB 2019b to correctly operate. To get started, clone this repo into your MATLAB path (folder called MATLAB created when you install MATLAB on your machine) and click the `Subbots_controller.prj`file within the MATLAB application. This will bring up a Project pane in the application where you are able to open and run the models.
+This repo is in the form of a Simulink project, and requires MATLAB 2019b to correctly operate. To get started, clone this repo, open up MATLAB and in the MATLAB folder navigator, right click the `control-systems` folder and click `Add to Path > Selected Folders and Subfolders`. Next click the `Subbots_controller.prj`file within the `control-systems` directory. This will bring up a Project pane in the application where you are able to open and run the models.
 
 ## Params
 In this folder are the parameter scripts for the control system corresponding to the version of the AUV given by the year in the script's name. When you open up the Simulink project, the current parameter script is run which populates the MATLAB workbench with the parameters which then can be used in the Simulink models.
