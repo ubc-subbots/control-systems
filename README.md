@@ -1,7 +1,7 @@
 
 # Control Systems
 
-This is where we design, simulate and tune our control systems and evaluate how they perform on a mathematical model of our AUV using MATLAB Simulink simulations. Below is a diagram of the real simulation (described in the systems section)
+This is where we design, simulate and tune our control systems and evaluate how they perform on a mathematical model of our AUV using MATLAB Simulink simulations. Below is a diagram showcasing the realistic simulation of the control system (described in the systems section).
 ![Real Simulation](Assets/real_simulation.png)
 
 ## Get Started
