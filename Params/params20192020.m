@@ -22,8 +22,8 @@ const.g = 9.81;           % gravitational constant (m/s^2)
 % Parameters are stored in a single struct so it is easy to pass them into
 % a Simulink MATLAB function block
 
-params.m = 18.7; %14.405;                     % mass of auv        (Kg)
-params.V = 0.0188;                            % volume of auv      (m^3)
+params.m = 25.36;     %14.405;                % mass of auv        (Kg)
+params.V = 0.015187771559760001;              % volume of auv      (m^3)
 params.W = params.m*const.g;                  % auv weight         (Kg)
 params.B = const.rho_water*const.g*params.V;  % auv buoyancy force (N)
 
@@ -54,18 +54,26 @@ params.Nrr = 0;        % yaw quadratic drag parameter  (Ns^2/m^2)
 params.alpha = 45;  % angle of each horizontal thruster off 
                     % of the longitudinal axis (Deg)
                              
-params.L1x = 10.833*cosd(52.704); % x and y length of thruster 1 
-params.L1y = 10.833*sind(52.704); % (front right) from the COM (in)
+params.L1x = -6.8898;   % x and y length of thruster 1 (back left) from the COM (in)
+params.L1y = -12.8931;
+params.L1z =  0.0000;
 
-params.L2x = 11.238*cosd(54.261); % x and y length of thruster 1 
-params.L2y = 11.238*sind(54.261); % (front left) from the COM (in)
+params.L2x =  9.0551;   % position of thruster 2
+params.L2y = -8.4409;
+params.L2z = -0.3346;
 
-params.L3x = 11.466*cosd(48.73); % x and y length of thruster 1 
-params.L3y = 11.466*sind(48.73); % (back right) from the COM (in)
+params.L3x =  9.0551;   % position of thruster 3
+params.L3y =  8.4409;
+params.L3z = -0.3346;
 
-params.L4x = 11.85*cosd(50.34); % x and y length of thruster 1 
-params.L4y = 11.85*sind(50.34); % (back left) from the COM (in)
+params.L4x = -6.8898;   % x and y length of thruster 4 (back left) from the COM (in)
+params.L4y = 12.8931;
+params.L4z =  0.0000;
 
-params.L5x = 8.744; % x length of thruster 5 (top right) from the COM (in)
+params.L5x = -12.5745;  % position of thruster 5
+params.L5y =  0.0000;
+params.L5z =  3.1496;
 
-params.L6x = 8.239; % x length of thruster 6 (top left) from the COM (in)
+params.L6x = -17.9134;  % position of thruster 6
+params.L6y =  0.0000;
+params.L6z =  0.0000;
